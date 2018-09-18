@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd"
+       default-init-method="defaultInit" default-destroy-method="defaultDestroy">
+    <!--bean中可以没有默认的初始化和销毁方法-->
+    <!--bean中配置的 initMethod 和 destroyMethod 在必须在类中实现-->
+    <!--同时使用三种初始化/销毁配置时，
+        默认方法会被覆盖，
+        实现 InitializingBean 和 DisposableBean 的 afterPropertiesSet、destroy 方法先执行，
+        然后是配置的 initMethod 和 destroyMethod
+    -->
+    <bean id="beanLifeCycle"
+          class="com.kangxw.spring.first.bean.BeanLifeCycle"
+          init-method="start"
+          destroy-method="stop">
+    </bean>
+    <!--<bean id="beanLifeCycle" class="com.kangxw.spring.first.bean.BeanLifeCycle"></bean>-->
+</beans>
