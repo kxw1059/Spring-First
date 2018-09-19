@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="Spring" name="Spring">
+      <configuration>
+        <fileset id="fileset" name="Spring Application Context" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resource/applicationContext.xml</file>
+        </fileset>
+        <fileset id="fileset2" name="Spring Autowriting" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resource/spring-autowriting.xml</file>
+        </fileset>
+        <fileset id="fileset3" name="Spring Aware" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resource/spring-aware.xml</file>
+        </fileset>
+        <fileset id="fileset4" name="Spring Beanannotation" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resource/spring-beanannotation.xml</file>
+        </fileset>
+        <fileset id="fileset5" name="Spring BeanLifeCycle" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resource/spring-beanLifeCycle.xml</file>
+        </fileset>
+        <fileset id="fileset6" name="Spring BeanScope" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resource/spring-beanScope.xml</file>
+        </fileset>
+        <fileset id="fileset7" name="Spring Injection" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resource/spring-injection.xml</file>
+        </fileset>
+        <fileset id="fileset8" name="Spring Ioc" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resource/spring-ioc.xml</file>
+        </fileset>
+        <fileset id="fileset9" name="Spring Resource" removed="false">
+          <file>file://$MODULE_DIR$/src/main/resource/spring-resource.xml</file>
+        </fileset>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/java" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/src/test/resource" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/src/main/resource" type="java-resource" />
+      <excludeFolder url="file://$MODULE_DIR$/out" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="spring-5.0.9.RELEASE" level="project" />
+    <orderEntry type="library" name="commons-logging-1.2" level="project" />
+    <orderEntry type="library" name="junit-4.12" level="project" />
+  </component>
+</module>
